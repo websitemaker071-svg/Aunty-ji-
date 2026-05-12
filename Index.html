@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Aunty Ji</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+overflow-x:hidden;
+}
+
+section{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+text-align:center;
+padding:20px;
+}
+
+h1{
+font-size:45px;
+margin-bottom:20px;
+color:#d81b60;
+}
+
+p{
+font-size:28px;
+line-height:1.7;
+color:#333;
+}
+
+.btn{
+margin-top:30px;
+padding:12px 30px;
+background:#ff4081;
+color:white;
+text-decoration:none;
+border-radius:30px;
+font-size:18px;
+}
+
+.page1{
+background:#ffeef3;
+}
+
+.page2{
+background:#fff5e6;
+}
+
+.page3{
+background:#eefcff;
+}
+
+.page4{
+background:#f5f0ff;
+}
+
+.page5{
+background:#ffdce8;
+position:relative;
+overflow:hidden;
+}
+
+.page6{
+background:#fff8e7;
+}
+
+audio{
+margin-top:20px;
+width:300px;
+}
+
+/* RAIN */
+
+.rain{
+position:absolute;
+width:2px;
+height:100px;
+background:white;
+top:-100px;
+animation:rain 1s linear infinite;
+opacity:0.8;
+}
+
+@keyframes rain{
+0%{
+transform:translateY(-100px);
+}
+100%{
+transform:translateY(120vh);
+}
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- PAGE 1 -->
+
+<section class="page1">
+
+<p>
+Go to the next page 😄
+</p>
+
+<a href="#page2" class="btn">Next ➜</a>
+
+</section>
+
+<!-- PAGE 2 -->
+
+<section class="page2" id="page2">
+
+<p>
+Now do the last...
+<br>
+or next page 😂
+</p>
+
+<a href="#page3" class="btn">Next ➜</a>
+
+</section>
+
+<!-- PAGE 3 -->
+
+<section class="page3" id="page3">
+
+<p>
+“Now seriously, this is the last time —
+please do the next page 😂”
+</p>
+
+<a href="#page4" class="btn">Next ➜</a>
+
+</section>
+
+<!-- PAGE 4 -->
+
+<section class="page4" id="page4">
+
+<h1>🎵 Enjoy This Song 🎵</h1>
+
+<audio controls>
+<source src="song.mp3" type="audio/mp3">
+</audio>
+
+<a href="#page5" class="btn">Next ➜</a>
+
+</section>
+
+<!-- PAGE 5 -->
+
+<section class="page5" id="page5">
+
+<!-- Rain -->
+
+<div class="rain" style="left:10%; animation-delay:0s;"></div>
+<div class="rain" style="left:20%; animation-delay:0.3s;"></div>
+<div class="rain" style="left:30%; animation-delay:0.5s;"></div>
+<div class="rain" style="left:40%; animation-delay:0.2s;"></div>
+<div class="rain" style="left:50%; animation-delay:0.7s;"></div>
+<div class="rain" style="left:60%; animation-delay:0.1s;"></div>
+<div class="rain" style="left:70%; animation-delay:0.4s;"></div>
+<div class="rain" style="left:80%; animation-delay:0.6s;"></div>
+<div class="rain" style="left:90%; animation-delay:0.8s;"></div>
+
+<h1 style="z-index:2;">
+🎂 Happy Birthday Aunty Ji 🎂
+</h1>
+
+<a href="#page6" class="btn" style="z-index:2;">Next ➜</a>
+
+</section>
+
+<!-- PAGE 6 -->
+
+<section class="page6" id="page6">
+
+<p>
+Aaj mein aapko Happy Birthday
+ek insaan ki wajah se bol pa raha hu 😊
+<br><br>
+
+Jasanmeet ❤️
+<br><br>
+
+Kyuki agar vo dost nahi hota,
+toh mein Happy Birthday bhi nahi bol pata 😄
+<br><br>
+
+Toh Jasanmeet Bhai ko bhi thanks ✨
+</p>
+
+</section>
+
+</body>
+</html>
